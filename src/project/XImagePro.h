@@ -1,0 +1,29 @@
+#pragma once
+#include <opencv2/core.hpp>
+class XImagePro
+{
+public:
+	//设置原图，会清理处理结果
+	void Set(cv::Mat mat1, cv::Mat mat2);
+	
+	//获取处理后结果
+	cv::Mat Get(){ return des; }
+	
+	//设置亮度和对比度
+	///@para bright double 亮度 0~100
+	///@para contrast int 对比度 1.0 ~ 3.0
+	void Gain(double bright, double contrast);
+ 
+	//往固定ROI区域打马赛克
+	void Mosaic();
+
+	XImagePro();
+	~XImagePro();
+private:
+	//原图
+	cv::Mat src1, src2;
+
+	//目标图
+	cv::Mat des;
+};
+

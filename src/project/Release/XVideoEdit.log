@@ -1,0 +1,28 @@
+﻿生成启动时间为 2018/1/8 11:05:43。
+     1>项目“E:\深度学习教程\16.opencv_qt5_视频剪辑器\8.批量拼接软件V1.2_中间文件为MTS\src\project\XVideoEdit.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_XVideoThread.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_XVideoThread.cpp, GeneratedFiles\Release\moc_XVideoThread.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_XVideoUI.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_XVideoUI.cpp, GeneratedFiles\Release\moc_XVideoUI.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_XVideoWidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_XVideoWidget.cpp, GeneratedFiles\Release\moc_XVideoWidget.cpp.
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt5.8.0\5.8\msvc2013\include /I.\GeneratedFiles\Release /ID:\Qt5.8.0\5.8\msvc2013\include\QtCore /ID:\Qt5.8.0\5.8\msvc2013\include\QtGui /ID:\Qt5.8.0\5.8\msvc2013\include\QtOpenGL /ID:\Qt5.8.0\5.8\msvc2013\include\QtWidgets /I"D:\Microsoft Visual Studio 12.0\OpenCV3.3_VS2013_x86\include" /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt XAudio.cpp
+         XAudio.cpp
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\release_bin\\XVideoEdit.exe" /NOLOGO /LIBPATH:D:\Qt5.8.0\5.8\msvc2013\lib /LIBPATH:"D:\Microsoft Visual Studio 12.0\OpenCV3.3_VS2013_x86\lib\release" qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5OpenGL.lib opengl32.lib glu32.lib Qt5Widgets.lib opencv_aruco330.lib opencv_bgsegm330.lib opencv_bioinspired330.lib opencv_calib3d330.lib opencv_ccalib330.lib opencv_core330.lib opencv_datasets330.lib opencv_dnn330.lib opencv_dpm330.lib opencv_face330.lib opencv_features2d330.lib opencv_flann330.lib opencv_fuzzy330.lib opencv_highgui330.lib opencv_img_hash330.lib opencv_imgcodecs330.lib opencv_imgproc330.lib opencv_line_descriptor330.lib opencv_ml330.lib opencv_objdetect330.lib opencv_optflow330.lib opencv_phase_unwrapping330.lib opencv_photo330.lib opencv_plot330.lib opencv_reg330.lib opencv_rgbd330.lib opencv_saliency330.lib opencv_shape330.lib opencv_stereo330.lib opencv_stitching330.lib opencv_structured_light330.lib opencv_superres330.lib opencv_surface_matching330.lib opencv_text330.lib opencv_tracking330.lib opencv_video330.lib opencv_videoio330.lib opencv_videostab330.lib opencv_xfeatures2d330.lib opencv_ximgproc330.lib opencv_xobjdetect330.lib opencv_xphoto330.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\release_bin\XVideoEdit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\release_bin\XVideoEdit.lib" /MACHINE:X86 /SAFESEH Release\BrowseDir.obj
+         Release\qrc_XVideoUI.obj
+         Release\moc_XVideoThread.obj
+         Release\moc_XVideoUI.obj
+         Release\moc_XVideoWidget.obj
+         Release\main.obj
+         Release\XAudio.obj
+         Release\XFilter.obj
+         Release\XImagePro.obj
+         Release\XVideoThread.obj
+         Release\XVideoUI.obj
+         Release\XVideoWidget.obj
+         XVideoEdit.vcxproj -> E:\深度学习教程\16.opencv_qt5_视频剪辑器\8.批量拼接软件V1.2_中间文件为MTS\src\project\..\..\release_bin\XVideoEdit.exe
+     1>已完成生成项目“E:\深度学习教程\16.opencv_qt5_视频剪辑器\8.批量拼接软件V1.2_中间文件为MTS\src\project\XVideoEdit.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.87
